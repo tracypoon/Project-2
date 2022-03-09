@@ -1,0 +1,5 @@
+select a."overall_rank", a."city", a."state", a."total_score", a."emotional_physical_well_being", a."income_employment",
+a."community_environment", b."max_temp", b."humidity", b."cloudiness", b."windspeed", b."date"
+from happy_cities a
+join city_weather b
+on a."city"=b."city";
