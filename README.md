@@ -2,7 +2,7 @@
 
 Project Title: Weather of the happy cities of America-2022
 
-Project Scope: Extract data of the happy cities in US and the weather data corresponding to those cities. Tranform the data into csv files and load it into a database and perform queries for analysis.
+Project Scope: Extract data of the happy cities in US and the weather data corresponding to those cities. Transform the data into csv files and load it into a database and perform queries for analysis.
 
 Project Sources:
 
@@ -19,7 +19,7 @@ The table from the webpage was written into csv file using Pandas in Jupyter Not
 
 The weather date obtained in json format was also written into a dataframe and converted to csv file.
 
-The date was obtained in timestamp format. It was converted to date:time () and split into two different columns using Pandas in Jupyter Notebook.
+The date was obtained in timestamp format. It was converted to date:time (yyyy.mm.dd hh.mm.ss) and split into two different columns using Pandas in Jupyter Notebook.
 
 The final transformed data in two dataframes(happy_cities and city_weather) was written into csv files.
 
