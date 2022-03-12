@@ -26,5 +26,7 @@ The final transformed data in two dataframes(happy_cities and city_weather) was 
 Load:
 The Pandas dataframes was loaded from the csv files into database (happy_city_db) using SQLAlchemy. And the data was combined into a single table using the join function in SQL.
 
-
+Team members:
+->Tracy Poon
+->Mano chitra Kumar
 
